@@ -27,29 +27,17 @@ variable "enable_accelerated_networking" {
 }
 
 variable "image_publisher" {
-  default = "vmware-inc"
+  default = "Canonical"
 }
 
 variable "image_offer" {
-  default = "tkg-capi"
+  default = "UbuntuServer"
 }
 
 variable "image_sku" {
-  default = "k8s-1dot19dot3-ubuntu-1804"
+  default = "18.04-LTS"
 }
 
 variable "image_version" {
-  default = "2020.12.14"
-}
-
-variable "plan_publisher" {
-  default = "vmware-inc"
-}
-
-variable "plan_product" {
-  default = "tkg-capi"
-}
-
-variable "plan_name" {
-  default = "k8s-1dot19dot3-ubuntu-1804"
+  default = "18.04.202103151"
 }

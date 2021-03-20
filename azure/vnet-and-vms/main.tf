@@ -104,10 +104,4 @@ resource "azurerm_linux_virtual_machine" "example" {
     sku       = var.image_sku
     version   = var.image_version
   }
-
-  plan {
-    publisher = var.plan_publisher
-    product   = var.plan_product
-    name      = var.plan_name
-  }
 }
